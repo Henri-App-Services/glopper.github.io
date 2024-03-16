@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>GLOPER</title>
+  <meta name="title" content="Adex">
+  <meta name="description" content="This is a business agency html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/10.jpeg" width="200" height="50" alt="Adex home" class="logo-light">
+
+        <img src="./assets/images/10.jpeg" width="200" height="50" alt="Adex home" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/10.jpeg" width="150" height="50" alt="Glopper home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#a Propos" class="navbar-link">A Propos</a>
+          </li>
+
+          <li>
+            <a href="#projets" class="navbar-link" >Projets</a>
+          </li>
+
+          <li>
+            <a href="#a Propos" class="navbar-link">Nos Programmes</a>
+          </li>
+
+          <li>
+            <a href="#projets" class="navbar-link" >Nos Solutions</a>
+          </li>
+
+          <li>
+            <a href="#missions" class="navbar-link" >Nos Missions</a>
+          </li>
+
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">gloper637@gmail.com</a>
+
+          <a href="tel:001234567890" class="contact-link">+237 654 932 696</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="contact.html" class="btn btn-primary" style="background-color:lime;color: white; border: none;">Contactez Nous</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        >
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title"  style="color:lime;">Global Protection Of Environmental Resources</h1>
+
+           
+
+            <div class="btn-wrapper">
+
+              <a href="#a Propos" class="btn btn-primary" >Explore Now</a>
+
+              
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item" id="box">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/3.jpeg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item" id="box">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/5.jpeg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <!-- <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button> -->
+                  </div>
+
+                </li>
+
+                <li class="slider-item" id="box">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/8.jpeg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-labelledby="service-label" id="a Propos">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label" style="color: brown;">Nos Programmes?</p>
+
+          <h2 class="h2 section-title" style="color: black;">
+           L'association GLOPER présente plusieurs programmes de maniere spécifiques.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="school" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title" style="color: brown;">Gloper Professional School </h3>
+
+                <p class="card-text">
+                  C est programmé qui consiste à former des jeunes professionnels dans la gestion des déchets de façon globale notamment la collecte, recyclage, transformation, et réemploi
+                  C est programme diplomant ouvert a toutes les couches sociales en partenariat avec le ministère de l'environnement et de la formation professionnelle. Il cadre avec les besoins actuels sur les questions d'insalubrité dans les grandes centres urbains en Afrique en général et au Cameroun en particulier
+                </p>
+
+                
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="alert" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title" style="color: brown;">Gloper Vamalo</h3>
+
+                <p class="card-text">
+                  VAMALO signifie (valorisation des matériaux locaux )
+                    C est un programme qui consiste à transformer les déchets en matériaux de construction afin de promouvoir la transformation des Déchets en matériaux de construction tel que les pavés ecologiques, briques écologiques, tuiles, et les outils de décoration mural
+                    C est un programme qui cadre avec la transformation et le recyclage des déchets en des matériaux consommables de construction afin de lutter contre la pauvreté et le chômage. 
+                    
+                </p>
+
+                <!-- <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a> -->
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="water" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title" style="color: brown;">Gloper Water-Clean </h3>
+
+                <p class="card-text">
+                  C est le programme de traitement et d assainissement des eaux usées domestiques et urbaines 
+                  afin de limiter la pollution et faciliter l accessibilité a l eau potable a toutes les couches sociales
+                   en fonction du milieu où il se trouve. Ce programme cadre avec l actualités sur les besoins  de potabilisation
+                    en eau au Cameroun en général dans les différents centres urbains  en particulier. Ce programme vise 
+                  également à limiter la propagation des maladies hydriques qui constitue l un des socles de la pauvreté.
+                </p>
+
+                <!-- <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="water" aria-hidden="true"></ion-icon>
+                </a> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="search" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title" style="color: brown;">Gloper Biblio-Recherche</h3>
+
+                <p class="card-text">
+                  c'est un programme  etroitement lié avec les autres programmes il est accentué uniquement sur la recherche 
+                  afin de faciliter la faisabilité et l'objectivité des autres programmes, il est considéré comme le centre
+                   de recherche de l association ou sont déclencher la mise en place de tous les programmes de l association.
+                    Ce programme cadre avec les soucis de développement local adapté aux besoins des populations c est pourquoi
+                     il intègre les réalités
+                   du terrain dans son déploiement techniques, technologique, Socio économique et environnemental.
+                </p>
+
+                <!-- <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="happy" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title" style="color: brown;">Gloper-Loisir-Campaign</h3>
+
+                <p class="card-text">
+                  Ce programme centré essentiellement sur l écotourisme. Il vise à promouvoir l écotourisme sur toute ses formes avec la valorisation, la promotion, la création des sites touristiques écologiques . Il vise à sensibiliser les humains sur la préservation l environnement tout en l exploitant
+                   dans son état naturel au regard du réchauffement climatique qui découle  des activités humaines.
+                </p>
+
+                <!-- <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="ribbon" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title" style="color: brown;">Glopers-Scholarschip</h3>
+
+                <p class="card-text">
+                  C'est un  programme qui relatif a la rédaction des articles et ouvrage
+                   ( le cahier de Gloper) qui développe et édifie  la communauté sur les différentes perceptions
+                    et gestion des crises environnementales les bulletins d'informations et magazines 
+                    (Gloper-info et Gloper info-mag) qui renseigne généralement sur l actualités des activités et crises
+                     environnementales, elle vise à promouvoir la visibilité de l association
+                  Il vise également à apporter des réflexions  sur les d thématiques en relations avec les différents journées de l environnement.
+                </p>
+
+                <!-- <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a> -->
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label" >
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content" id="missions">
+
+            <p class="section-subtitle" id="about-label" style="color: brown;" >Nos Missions et Nos Activités?</p>
+
+            <h2 class="h2 section-title" style="color: black;">
+              Gloper est une association qui possede plusieur missions et présente des activités selon 02 volets.
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5" style="color: lime;">Sensibilisation</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                   Ici, il s'agira de sensibiliser les populations locales sur la nécéssité de la préservation de l'environnement
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Promouvoir</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    L'une des missions de Gloper est aussi de promouvoir les projets de valorisation de déchets
+                    de la biomasse,  afin de lutter contre la pollution et l'insalubrité urbaine
+                  </p>
+
+                </div>
+              </li>
+
+              
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Volet Pratique </spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Cette phase est essentiellement constituée d'un ensemble de mise en oeuvre des projets sur les questions
+                    environnementales. Allant de sa conception a son implementation en passant par l'etude de faisabilité visant 
+                    concrétisation couronner par un rapport final.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Volet Formation</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Pour mieux saisir le contexte dynamique de l'environnement. Cette phase a pour but de mieux imprégner
+                    et outiller les acteurs de la chaine environnementales sur les defis et les enjeux des differents projets mis en oeuvre.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label" id="projets">
+
+        
+        
+        <div class="container">
+
+          <div class="gallery">
+          
+            <div class="img-box"><img class="img-cover" src="assets/images/6.jpeg" alt=""></div>
+            <div class="img-box"><img  class="img-cover" src="assets/images/5.jpeg" alt=""></div>
+            <div class="img-box"><img class="img-cover"  src="assets/images/1.jpeg" alt=""></div>
+          </div>
+
+          <div class="feature-content">
+
+            
+
+            <p class="section-subtitle" id="feautre-label" style="color: brown;">Nos Solutions</p>
+
+            <h2 class="h2 section-title" style="color: black;">
+              Dans cette rubrique nous vous presentons les differentes solutions Realiser et en Cours de realisation.
+            </h2>
+
+            <p class="section-text">
+              Il serait bon de notifier que tout les projets et solutions present dans ce site ont été concues et réaliser par les membres de la communaute GLOPER.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Atelier de Fabrication de pavés par les etudiants du programme Gloper Professional School
+                  </span>
+
+                </div>
+              </li>
+
+              
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Fabrication de chaises a partir de dechets recyclables.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Installation des Pavés apres Fabrication.
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+           Rejoignez notre Communauté et échangeons ensemble.
+          </h2>
+
+          <a href="contact.html" class="btn btn-primary" style="background-color: lime; color: white;">Rejoingnez Nous</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <h1>GLOPER</h1>
+        </a>
+
+        <p class="footer-text">
+          &copy; 2023 Henri-App Services. <br> Tous les droits reservés.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Localisation</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+           Situeé a L'Hotel de Ville
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:info@email.com" class="footer-link">gloper637@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:001234567890" class="footer-link">+237 695 456 815/ 675 104 861</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Plus </p>
+        </li>
+        
+
+        <li>
+          <a href="#a Propos" class="footer-link">A Propos</a>
+        </li>
+
+        <li>
+          <a href="index.html" class="footer-link">Home</a>
+        </li>
+
+        <li>
+          <a href="#projets" class="footer-link">Projects</a>
+        </li>
+
+        
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Notre Newsletter</p>
+
+        <p class="footer-text">
+         Souscris a notre newletter pour avoir plus d'informations sur l'evolution de GLOPER
+        </p>
+
+        <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+          <button type="submit" class="submit-btn" style="background-color: lime; color: white;"><a href="contact.html" class="footer-link">Rejoins</a></button>
+        </form>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
